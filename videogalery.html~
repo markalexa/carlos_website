@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<title>Videogalery</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="https://fonts.googleapis.com/css?family=Bahiana|Gloria+Hallelujah" rel="stylesheet">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    	<link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    	<style>
+		 * {padding: 0;margin: 0;}
+		 li {font-family: 'Bahiana', Verdana;font-size: 40px;}
+		 body {background-image: url("pics/videobg.jpg");background-repeat: no-repeat;background-size: cover;}
+		 .jumbotron {background-color: transparent;margin-top: 60px;}
+		 #hover a:hover {color: #3333ff;}
+		 #highlight_underline {color: #6699ff;text-decoration: underline;}
+		 
+		 @media (max-width: 768px) {
+			img {
+			width: 80%;
+			border: 3px outset blue;
+			height: auto;}
+		}
+    	</style>
+</head>
+<body>
+
+<!-- NAVIGATION BAR -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+<div class="container">
+<div class="header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+</div>
+<div class="collapse navbar-collapse" id="navbar-collapse">
+<ul class="nav navbar-nav" id="hover">
+	<li><a href="index.html">home</a></li>
+	<li><a href="about.html">about me</a></li>
+	<li><a href="my_work.html">my work</a></li>
+	<li><a href="videogalery.html" id="highlight_underline">Videogalery</a></li>
+	<li><a href="contact.html">contact me</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- END OF THE NAVIGATION BAR -->
+
+<!-- MAIN CONTENT -->
+
+<div class="jumbotron">
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-6 col-md-6">
+			<video width="500" height="auto" controls>
+				<source src="vid1.mp4" type="video/mp4">			
+			</video>
+			
+		</div>
+		<div class="col-lg-6 col-md-6">
+			<video width="500" height="auto" controls>
+				<source src="vid2.mp4" type="video/mp4">			
+			</video>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
