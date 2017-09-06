@@ -1,4 +1,4 @@
-<?php
+<?php # Can be chucked into external php file 
 
 	if (isset($_POST['submit'])) {
 		require_once('PHPMailer-master/class.phpmailer.php');
@@ -74,26 +74,26 @@
 	</style>
 </head>
 <body>
-
+<!-- Repetitive header. Can be improved by having it included as a layout -->
 <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
-<div class="container">
-<div class="header">
-  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-  <span class="icon-bar"></span>
-  <span class="icon-bar"></span>
-  <span class="icon-bar"></span>
-  </button>
-</div>
-<div class="collapse navbar-collapse" id="navbar-collapse">
-<ul class="nav navbar-nav" id="hover">
-  <li><a href="index.html">home</a></li>
-  <li><a href="about.html">about me</a></li>
-  <li><a href="my_work.html">my work</a></li>
-  <li><a href="videogalery.html">Videogalery</a></li>
-  <li><a href="contact.html" id="highlight_underline">contact me</a></li>
-</ul>
-</div>
-</div>
+	<div class="container">
+		<div class="header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  </button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav" id="hover">
+			  <li><a href="index.html">home</a></li>
+			  <li><a href="about.html">about me</a></li>
+			  <li><a href="my_work.html">my work</a></li>
+			  <li><a href="videogalery.html">Videogalery</a></li>
+			  <li><a href="contact.html" id="highlight_underline">contact me</a></li>
+			</ul>
+		</div>
+	</div>
 </nav>
 
 <div class="container" id="form">
